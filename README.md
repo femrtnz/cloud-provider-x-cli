@@ -42,5 +42,14 @@ You can run unit test with the command below. There are a few unit tests missing
 
     `python3 -m unittest`
 
+### Trade-offs
+ - The watch flag has some delay due to the request and the table creation in the same place.
+Probably a some different approaches should tested in order to improve performance.
+
+### Improvements
+ - More unit test and edge cases validation
+ - Remove duplicated code
+ - Try to make to code more readable, maybe split it in more methods, and being more auto explainable
+
 ### Assumptions
-A server is not healthy where its CPU or Memory is grater than 90%
+A server is unhealthy where its CPU or Memory is grater than 90%
