@@ -1,7 +1,7 @@
 # Cloud Provider X (CPX)
 
 ## CLI tool
-I CLI tool was created in order to consume data from CPX. This tool was created with python3
+A CLI tool was created in order to consume data from CPX. This tool was created with python3
 anc it is using the Click framework to provide the CLI functionality. I created this trying to
 be user friendly, and following a common pattern of really used cli's as `kubectl`
 
@@ -14,14 +14,14 @@ be user friendly, and following a common pattern of really used cli's as `kubect
 
 ## Running the CLI
 
-`cpxctl`will point for a default server on `http://localhost:9999` or you can set a Flag
-`--server=<address>` pointing to your curren server address
+`cpxctl` will point for a default server on `http://localhost:9999` or you can set a Flag
+`--server=<address>` pointing to your current server address
 
-1. Printing running services to stdout with `get all`
+1. Show all running services on stdout with `get all`
 
     `./cpxctl.py get all`
 
-1. Printing specific running services to stdout with `get <service_name>`
+1. Show specific running services on stdout with `get <service_name>`
 
     `./cpxctl.py get MLService`
 
