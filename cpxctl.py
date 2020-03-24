@@ -7,7 +7,6 @@ from prettytable import PrettyTable
 import time
 
 
-__author__ = "Felipe Amaral"
 default_server = "http://localhost:9999"
 
 
